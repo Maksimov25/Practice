@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AppPractic</string>
+    <string name="main_menu">main menu</string>
+    <string name="dictionary">dictionary</string>
+    <string name="my_dictionary">my dictionary</string>
+    <string name="text">text</string>
+    <string name="music">music</string>
+    <string name="how_to_use">how to use</string>
+    <string name="settings_header">s</string>
+    <string name="main_menu_header">m</string>
+    <string name="come_back">come back</string>
+    <string name="log_in">log in</string>
+    <string name="login">login</string>
+    <string name="password">password</string>
+    <string name="enter">enter</string>
+    <string name="registration">registration</string>
+    <string name="exit">exit</string>
+    <string name="name">last_dance</string>
+    <string name="name_game">Talk master</string>
+    <string name="vhod">Войдите в свою учетную запись</string>
+    <string name="btnSignIn">Войти</string>
+    <string name="btnRegister">Зарегистрироваться</string>
+    <string name="email">Email</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender_gray"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="25dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat_bold"/>
+
+        <EditText
+            android:id="@+id/edittext_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:hint="@string/login"
+            android:textColorHint="@color/gray"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat"/>
+
+        <EditText
+            android:id="@+id/edittext_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textCursorDrawable="@null"
+            android:hint="@string/password"
+            android:textColorHint="@color/gray"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/black"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/montserrat"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_enter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/enter"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:textSize="15sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:background="@drawable/button_for_header_footer_login_registration"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_registration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="@string/registration"
+            android:textAllCaps="false"
+            android:textSize="15sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/montserrat"
+            android:background="@drawable/button_for_header_footer_login_registration"
+        />
+    </LinearLayout>
+</LinearLayout>

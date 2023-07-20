@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "985596299529",
+    "project_id": "bdenglishapp-ca203",
+    "storage_bucket": "bdenglishapp-ca203.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985596299529:android:2099125ef0c80776ef2bd8",
+        "android_client_info": {
+          "package_name": "com.example.apppractic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985596299529-8i5j4dvls1rth3r66ii00hoc7grt2r00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.apppractic",
+            "certificate_hash": "26779f50a6dc6d1d8520b06c4aab7221330da180"
+          }
+        },
+        {
+          "client_id": "985596299529-ohq089n9lfgmma52je041krr8gp37esc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2yWwZk67CPnw939HuerJZ-FsEGxKdZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985596299529-ohq089n9lfgmma52je041krr8gp37esc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985596299529:android:06dd049390a0c689ef2bd8",
+        "android_client_info": {
+          "package_name": "com.example.englishapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985596299529-ohq089n9lfgmma52je041krr8gp37esc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-2yWwZk67CPnw939HuerJZ-FsEGxKdZI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985596299529-ohq089n9lfgmma52je041krr8gp37esc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

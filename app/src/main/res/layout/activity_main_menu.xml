@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainMenuActivity"
+    android:orientation="vertical"
+    android:background="@color/lavender_gray">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:background="@color/lavender_gray">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_main"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="@string/main_menu_header"
+            android:textSize="20sp"
+            android:layout_marginStart="-2dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:background="@drawable/button_for_header_footer_login_registration"/>
+
+        <TextView
+            android:id="@+id/text_header"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="@string/main_menu"
+            android:background="@drawable/text_for_header"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginLeft="-2dp"
+            android:layout_marginRight="-2dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button_settings"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0"
+            android:text="@string/settings_header"
+            android:textSize="20sp"
+            android:layout_marginEnd="-2dp"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:background="@drawable/button_for_header_footer_login_registration"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:textColor="@color/white"
+        android:background="@color/lavender_gray">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@color/lavender_gray">
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical"
+               >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_margin="2dp"
+                    android:text="Button"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:textAllCaps="false"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:background="@color/lavender_gray">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_dictionary"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/dictionary"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_for_scroll"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_my_dictionary"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/my_dictionary"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_marginTop="40dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_for_scroll"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/text"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_marginTop="40dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_for_scroll"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_music"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/music"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    android:layout_marginTop="40dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_for_scroll"/>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/button_how_to_use"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="@string/how_to_use"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_marginTop="40dp"
+                    android:textAllCaps="false"
+                    android:background="@drawable/button_for_scroll"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_weight="0"
+                >
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:text="Button"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    android:layout_margin="2dp"
+                    android:textAllCaps="false"
+                    android:visibility="invisible"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button_comeback_or_exit"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/button_for_header_footer_login_registration"
+        android:text="@string/exit"
+        android:layout_weight="0"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textAllCaps="false"/>
+
+</LinearLayout>

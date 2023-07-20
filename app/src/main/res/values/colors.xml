@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gray">#68000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="color_scroll">#D2ECB5</color>
+    <color name="color_login_registration">#C4E89B</color>
+    <color name="color_button_for_header_footer_off">#ABE66B</color>
+    <color name="color_button_for_header_footer_on">#80B348</color>
+    <color name="color_text_for_header">#75B132</color>
+    <color name="color_button_for_scroll_off">#589746</color>
+    <color name="color_button_for_scroll_on">#3D6E2F</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="police_blue">#404968</color>
+    <color name="dark_electric_blue">#5D6581</color>
+    <color name="chinese_black">#10131B</color>
+    <color name="lavender_gray">#C0C8D8</color>
+    <color name="yankees_blue">#1F2636</color>
+    <color name="aqua">#00FFFFFF</color>
+</resources>
